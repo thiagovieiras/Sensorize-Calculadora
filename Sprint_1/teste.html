@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Institucional</title>
+    <link rel="stylesheet" href="teste2.css">
+</head>
+
+<body>
+    <header>
+    <a href="" target="_blank">
+        <div class="div-img"></div>
+    </a>
+    <div class="div-cadastro">
+        <div class="login">Login</div>
+        <div class="cadastro">Cadastrar-se</div>
+    </div>
+    </header>
+    <h1>Seja bem-vindo à TechGym</h1>
+    <h2>Simulador financeiro</h2>
+
+    <div class="caixa-principal">
+        <div class="calculadora">
+            <div class="caixa-input">
+                <label for="input_nome">Nome da sua academia:</label><br>
+                <input id="input_nome"><br>
+
+                <label for="input_clientes">Número de clientes:</label><br>
+                <input id="input_clientes"><br>
+
+                <label for="input_equipamentos">Número de equipamentos:</label><br>
+                <input id="input_equipamentos"><br>
+
+                <button onclick="verificar()">Ver resultado</button>
+                <a href="" target="_blank">Acesse nosso site</a>
+            </div>
+        </div>
+        <div class="caixa-resultado" id="caixa_resultado">
+            <div class="div-resultado">
+                <p id="resposta"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="script.js"></script>
