@@ -18,7 +18,7 @@ header {
     background-image: url("Logo\ Sensorize.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 20px;
 
     width: 80px;
     height: 80px;
@@ -133,6 +133,12 @@ input {
     margin-bottom: 15px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
+}
+
+input:hover {
+    padding: 7px;
+    border-radius: 14px;
+    transition: 0.2s;
 }
 
 button {
