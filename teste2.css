@@ -50,7 +50,7 @@ body {
     
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(fundo.png);
+    background-image: url(Imagens/fundo.png);
 }
 
 header {
@@ -64,7 +64,7 @@ header {
 }
 
 .div-img {
-    background-image: url("Logo\ Sensorize.png");
+    background-image: url("Imagens/Logo\ Sensorize.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 20px;
@@ -228,10 +228,32 @@ a:hover {
     background-color: white;
     float: right;
     border: 2px solid black;
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.388);
     padding: 8px;
+    overflow-y: scroll;
 }
 
 p {
     color: rgba(0, 0, 0, 0.542);
     line-height: 1.5;
+}
+
+.div-resultado::-webkit-scrollbar {
+    display: block;
+    width: 7px;
+}
+
+.div-resultado::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.666);
+    border-radius: 20px;
+}
+
+.div-resultado::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+.div-resultado::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 20px;
 }
